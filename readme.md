@@ -1,6 +1,7 @@
 #project for olo.com
 
-#instructions
+##Getting Started
 
-##npm install
-##npm start
+#### 1. install `nodejs if you dont have it`
+#### 1. Run `npm install`
+#### 2. Run `npm start`
