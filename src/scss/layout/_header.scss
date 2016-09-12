@@ -1,0 +1,49 @@
+.header {
+  background: $grey url('../assets/images/header.png') center;
+  border-bottom: 30px solid $red;
+  background-size: 100% 100%;
+  position: relative;
+  top: 0;
+
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.brand-name {
+  background: url('../assets/images/logo.png') no-repeat center;
+  color: transparent;
+  float: left;
+  font-size: 18px;
+  position: relative;
+  top: 25px;
+  left: -15px;
+  height: 145px;
+  width: 150px;
+}
+
+.inline-list {
+  font-size: 23px;
+
+@include has(item) {
+    display: inline-block;
+    margin: 67px 32px 0;
+
+  @include variant(link) {
+    font-family: $main-font;
+    color: $cream;
+
+    &:hover {
+      color: $red;
+    }
+  }
+}
+  .active {
+    a {
+      color: $red;
+    }
+  }
+}
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Olo - Code Test</title>
+    <link rel="stylesheet" href="style/main.css"/>
+</head>
+<body class='wrapper'>
+<header id="HeaderBar" class="header">
+    <div class="container">
+        <div class="row">
+            <nav>
+                <h1 class="brand-name">Foo's Burgers</h1>
+                <button id="Login" class='login-btn pull--right'>Login</button>
+                <ul class='inline-list'>
+                    <li class='inline-list__item'><a class="inline-list__item--link" href='#'>Home</a></li>
+                    <li  class='inline-list__item active'><a class="inline-list__item--link" href='#'>Order</a></li>
+                    <li class='inline-list__item'><a class="inline-list__item--link" href='#'>Create Account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<main id="ContentArea">
+    <div class="container">
+        <div class="row">
+            <div class="col-9">
+                <section id="Menu">
+                    <div class="row">
+                        <div class="col-10">
+                            <section id="MenuHeader" class="menu-header">
+                                <div class="menu-header">
+                                    <h2>Foo's Burgers Broadway</h2>
+                                    <div class="address">
+                                        <a href="#" class="address-link">
+                                            <span class="street-address">26 Broadway,</span>
+                                            <span class="locality">New York,</span>
+                                            <span class="region">NY</span>
+                                            <span class="postal-code">10004</span>
+                                        </a>
+                                        <a href="#" class="address-change">Change Location</a>
+                                    </div>
+                                </div>
+                                <dl class="menu-info">
+                                    <dt>Phone:</dt>
+                                    <dd class="answer">(555) 555-5555</dd>
+                                    <dt>Pickup Inside Hours:</dt>
+                                    <dd class="answer">Open today 11am-Midnight</dd>
+                                    <dt>Delivery Hours:</dt>
+                                    <dd class="answer">9:30am-5:30pm</dd>
+                                </dl>
+                                <dl class="menu-info" id="acceptedCards">
+                                    <dt>Accepted Cards:</dt>
+                                    <dd class="answer">Mastercard, Visa, American Express, Discover</dd>
+                                </dl>
+                            </section>
+                        </div>
+                        <div class="col-3">
+                            <ul id="CategoryList" class="category-list text--center">
+                                <li class="category selected-category">Burgers</li>
+                                <li class="category">Salads</li>
+                                <li class="category">View All</li>
+                            </ul>
+                        </div>
+                        <div class="col-9">
+                            <section id="ProductList">
+                                <div class="category-header">
+                                    <h2 class="category-name">Burgers</h2>
+                                    <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, quia!</p>
+                                </div>
+                                <ul>
+                                    <li id="prod1" class="product">
+                                        <span class="product-image"></span>
+                                        <div class="product-detail">
+                                            <span class="product-title">Classic Burger</span>
+                                            <span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</span>
+                                            <span>$5.00</span>
+                                        </div>
+                                    </li>
+                                    <li id="prod2" class="product">
+                                        <span class="product-image"></span>
+                                        <div class="product-detail">
+                                            <span class="product-title">Cheese Burger</span>
+                                            <span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</span>
+                                            <span>$5.00</span>
+                                        </div>
+                                    </li>
+                                    <li id="prod3" class="product">
+                                        <span class="product-image"></span>
+                                        <div class="product-detail">
+                                            <span class="product-title">Bacon Burger</span>
+                                            <span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</span>
+                                            <span>$5.00</span>
+                                        </div>
+                                    </li>
+                                    <li id="prod4" class="product">
+                                        <span class="product-image"></span>
+                                        <div class="product-detail">
+                                            <span class="product-title">Chicken Burger</span>
+                                            <span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</span>
+                                            <span>$5.00</span>
+                                        </div>
+                                    </li>
+                                    <li id="prod5" class="product">
+                                        <span class="product-image"></span>
+                                        <div class="product-detail">
+                                            <span class="product-title">The Foo Burger</span>
+                                            <span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</span>
+                                            <span>$5.00</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-3">
+                <section id="BasketView" class="basket">
+                    <h2 class="basket-heading text--center">Order Contents</h2>
+                    <div id="BasketTotals">
+                        <dl class="summary">
+                            <dt>SUB TOTAL</dt>
+                            <dd class="money">$<span>0.00</span></dd>
+                        </dl>
+                        <dl class="summary">
+                            <dt>TAX</dt>
+                            <dd class="money">$<span>0.00</span></dd>
+                        </dl>
+                        <dl class="total">
+                            <dt>TOTAL</dt>
+                            <dd class="money">$<span>0.00</span></dd>
+                        </dl>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <a href="#" class='olo-link'>Powered by Olo.com</a>
+            <div id="FooterLinks" class="footer-links text--right">
+                <a href="#">Participating Locations</a>
+                <a href="#">User Agreement</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

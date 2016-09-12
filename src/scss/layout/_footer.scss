@@ -1,0 +1,21 @@
+.footer {
+  background: $grey;
+  font-family: $second-font;
+  font-size: 14px;
+  padding: 24px 0 56px;
+
+  a {
+    color: $white;
+  }
+}
+
+.footer-links {
+  a {
+    padding: 0 5px;
+    border-right: 1px solid $white;
+
+    &:last-child {
+      border-right: 0;
+    }
+  }
+}

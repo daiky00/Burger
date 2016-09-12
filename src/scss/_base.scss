@@ -1,0 +1,18 @@
+.wrapper {
+  background: $cream url('../assets/images/wood-pattern.png') top center no-repeat;
+  font-family: $second-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $grey;
+  font-family: $main-font;
+  line-height: 1;
+}
+
+h1, .h1 {
+  font-size: 2.25rem;
+}
+
+h2, .h2{
+  font-size: 1.875rem;
+}

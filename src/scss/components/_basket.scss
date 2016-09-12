@@ -1,0 +1,29 @@
+.basket {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  display: block;
+  height: 100vh;
+}
+
+.basket-heading {
+  border-bottom: 1px solid $red;
+  font-size: 1.125rem;
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+
+.summary, .total {
+  color: $red;
+  font-family: $second-font;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.money {
+  color: $grey;
+  font-style: normal;
+  text-align: right;
+  position: relative;
+  top: -15px;
+  line-height: 0.4;
+}

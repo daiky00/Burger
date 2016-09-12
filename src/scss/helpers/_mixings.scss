@@ -1,0 +1,12 @@
+// BEM Method mixing
+@mixin has($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+@mixin variant($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}

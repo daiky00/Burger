@@ -1,0 +1,16 @@
+[class*="btn"] {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-family: $third-font;
+  font-size: 21px;
+  padding: 5px 35px;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+.login-btn {
+  color: $white;
+  background: $green;
+}
