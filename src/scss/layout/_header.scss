@@ -47,3 +47,14 @@
   }
 }
 
+
+@media (max-width: 900px) {
+  .inline-list {
+    @include has(item) {
+      display: block;
+      margin: 0 0 10px;
+
+    }
+  }
+}
+

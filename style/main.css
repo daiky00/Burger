@@ -107,6 +107,13 @@ h2, .h2 {
   .inline-list .active a {
     color: #af2f26; }
 
+@media (max-width: 800px) {
+  .inline-list {
+    font-size: 23px; }
+    .inline-list__item {
+      display: block;
+      margin: 10px; } }
+
 .footer {
   background: #333333;
   font-family: "Cabin", Open Sans, serif;
@@ -147,7 +154,7 @@ h2, .h2 {
 
 @media (max-width: 900px) {
   .row {
-    margin: 2.5%; }
+    margin: 0 2.5% 0 0; }
   [class^="col"] {
     float: none;
     width: 100%; } }
