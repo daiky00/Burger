@@ -5,7 +5,7 @@
   "main": "./src",
   "scripts": {
     "test": "webpack",
-    "build": "start http://localhost:3000 & webpack-dev-server --progress --colors --inline --port 3000",
+    "build": "start http://localhost:3000 || open http://localhost:3000 & webpack-dev-server --progress --colors --inline --port 3000",
     "start": "npm run test & npm run build"
   },
   "author": "Francisco Pena",
